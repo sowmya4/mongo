@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs", 
+        "outDir": "dist",
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*.ts", "src/startUp/promisetwo.js" //includes all the files in src for compilation
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
